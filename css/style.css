@@ -2,6 +2,11 @@
   background-color: #bfd7ed;
   padding-top: 50px;
   color: #002a51;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
 }
 .quoteOfDay {
   font-size: 70px;
@@ -23,11 +28,14 @@
 .myName {
   text-align: center;
   font-size: 19px;
-  position: fixed;
-  bottom: 15px;
-  transform: translateX(-50%);
-  left: 50%;
 }
+.myNameContainer{
+ position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .myName a {
   text-decoration: none;
   font-size: 22px;
@@ -38,10 +46,15 @@
 }
 
 @media screen and (max-width: 992px) {
+  
+  .home{
+    padding-top: 20px;
+  }
   .quoteOfDay {
-    font-size: 50px;
+    font-size: 40px;
+    margin-bottom: 20px;
   }
   .guideMessage {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
