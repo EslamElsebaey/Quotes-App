@@ -1,0 +1,47 @@
+.home {
+  background-color: #bfd7ed;
+  padding-top: 50px;
+  color: #002a51;
+}
+.quoteOfDay {
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.guideMessage {
+  font-size: 35px;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+.myButton {
+  padding: 20px 50px;
+  display: inline-block;
+  margin-bottom: 30px;
+  background-color: #60a3d9;
+  color: #002a51;
+}
+.myName {
+  text-align: center;
+  font-size: 19px;
+  position: fixed;
+  bottom: 15px;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.myName a {
+  text-decoration: none;
+  font-size: 22px;
+}
+#quoteOutput {
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 992px) {
+  .quoteOfDay {
+    font-size: 50px;
+  }
+  .guideMessage {
+    font-size: 25px;
+  }
+}
