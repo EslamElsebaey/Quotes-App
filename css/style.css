@@ -31,7 +31,7 @@
 }
 .myNameContainer{
  position: absolute;
-    bottom: 5px;
+    bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -55,6 +55,6 @@
     margin-bottom: 20px;
   }
   .guideMessage {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
