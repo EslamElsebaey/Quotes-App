@@ -18,13 +18,6 @@
   margin-bottom: 40px;
   font-weight: 400;
 }
-.myButton {
-  padding: 20px 50px;
-  display: inline-block;
-  margin-bottom: 30px;
-  background-color: #60a3d9;
-  color: #002a51;
-}
 .myName {
   text-align: center;
   font-size: 19px;
@@ -38,8 +31,15 @@
 
 .myName a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 22px;}
+.myButton {
+  padding: 20px 50px;
+  display: inline-block;
+  margin-bottom: 30px;
+  background-color: #60a3d9;
+  color: #002a51;
 }
+
 #quoteOutput {
   margin-bottom: 30px;
   font-style: italic;

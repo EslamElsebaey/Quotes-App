@@ -1,4 +1,4 @@
-var quotes = [
+let quotes = [
   {
     author: `Oscar Wilde`,
     qoute: `“Be yourself; everyone else is already taken.”`,
@@ -63,11 +63,11 @@ var quotes = [
   },
 ];
 
-var quoteOutput = document.getElementById(`quoteOutput`);
-var quoteAuthor = document.getElementById(`quoteAuthor`);
+let quoteOutput = document.getElementById(`quoteOutput`);
+let quoteAuthor = document.getElementById(`quoteAuthor`);
 
 function getQuote() {
-  var randomNum = Math.floor(Math.random() * quotes.length);
+  let randomNum = Math.floor(Math.random() * quotes.length);
   quoteOutput.innerHTML = quotes[randomNum].qoute;
   quoteAuthor.innerHTML = `-- ` + quotes[randomNum].author;
 }
